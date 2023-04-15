@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Tirheader from './Tirheader';
+function Asset(){
+  return <p>hi welcome</p>;
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Tirheader />
+    <Asset />
   </React.StrictMode>
 );
 
